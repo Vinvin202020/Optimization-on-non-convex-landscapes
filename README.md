@@ -76,6 +76,8 @@ from helpers import *
 There are 2 main notebooks : 
 - Run_convex_behavior : Which contains the figure and analysis of the experiment to measure the convex-like behavior
 - Run_visualisation : Which contains the code for trajectory study using visualisation in multiple ways
+
+  
 Additionnally there is a draft folder containing more experiment that provided unsatisfactory results or weren't relevant enough for the report
 
 ## Contributing
