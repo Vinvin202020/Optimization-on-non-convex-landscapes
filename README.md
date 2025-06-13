@@ -15,8 +15,10 @@ To visualize these high-dimensional optimization dynamics, we employ PCA-based d
 3. Libraries required :
    Complete Imports List
 ### PyTorch and Deep Learning
-import torch \\
+import torch 
+
 import torch.nn as nn 
+
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
