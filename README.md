@@ -49,16 +49,17 @@ from helpers import *
 
 
 ## Usage
-Provide examples and code snippets showing how to use your project.
+There are 2 main notebooks : 
+- Run_convex_behavior : Which contains the figure and analysis of the experiment to measure the convex-like behavior
+- Run_visualisation : Which contains the code for trajectory study using visualisation in multiple ways
+Additionnally there is a draft folder containing more experiment that provided unsatisfactory results or weren't relevant enough for the report
 
 ## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
 
 
 
-## Author
-Your Name – [@yourhandle](https://github.com/yourhandle)
+
+## Authors
+Alexander Aujesky – [Alexander.aujesky@epfl.ch] Sciper : 341667
+Vincent Escola – [Vincent.escola@epfl.ch] Sciper : 347303
+
