@@ -10,9 +10,42 @@ To visualize these high-dimensional optimization dynamics, we employ PCA-based d
 
 
 ## Installation
-1. Clone the repo: `git clone https://github.com/yourusername/project.git`
+1. Clone the repo: `git clone (https://github.com/Vinvin202020/Optimization-on-non-convex-landscapes.git)`
 2. Navigate to the directory: `cd project`
-3. Install dependencies: `npm install` or `pip install -r requirements.txt`
+3. Libraries required :
+   Complete Imports List
+### PyTorch and Deep Learning
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.nn.functional as F
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+### Scientific Computing and Numerical Analysis
+import numpy as np
+import scipy.linalg as sclg
+from scipy.stats import pearsonr
+### Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+### Machine Learning and Analysis
+from sklearn.metrics import accuracy_score
+from sklearn.decomposition import PCA
+### Parallel Processing
+import joblib
+from joblib import Parallel, delayed
+### Standard Library
+import copy
+from collections import defaultdict
+import warnings
+from functools import partial
+import time
+import importlib
+### Custom Modules
+import helpers
+from helpers import *
 
 
 ## Usage
